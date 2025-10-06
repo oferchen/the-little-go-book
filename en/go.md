@@ -1190,7 +1190,7 @@ func LoadItem(id int) *models.Item {
 }
 ```
 
-You'll often need to share more than just `models`, so you might have other similar folder named `utilities` and such. The important rule about these shared packages is that they shouldn't import anything from the `shopping` package or any sub-packages. In a few sections, we'll look at interfaces which can help us untangle these types of dependencies.
+You'll often need to share more than just `models`, so you might have other similar folders named `utilities` and such. The important rule about these shared packages is that they shouldn't import anything from the `shopping` package or any sub-packages. In a few sections, we'll look at interfaces which can help us untangle these types of dependencies.
 
 ### Visibility
 
